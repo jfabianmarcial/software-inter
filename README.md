@@ -3,11 +3,17 @@
 ## Resumen
 La propuesta consiste en desarrollar una página que permita registrar, consultar y gestionar reportes de objetos perdidos y encontrados de manera rápida y accesible. Mediante la publicación de fotografías, descripciones y ubicaciones aproximadas, los usuarios podrán identificar coincidencias entre artículos reportados como perdidos y aquellos encontrados por otros miembros de la comunidad.
 
-## ¿Cuál es el problema?
+## Problemática
 
-* **Lo que pasa ahora:** Cuando pierdes algo, tienes que ir a preguntar a vigilancia, a las oficinas o a la cafetería, y casi siempre nadie sabe nada. Es un desorden.
-* **Lo que afecta:** Muchos terminan perdiendo cosas importantes como llaves, documentos o hasta laptops. También le hacemos perder tiempo a la gente que trabaja en la escuela atendiendo a todos los que preguntan lo mismo.
-* **La idea:** Una plataforma donde puedas subir una foto y descripción de lo que perdiste o de lo que encontraste. Así, si alguien ya lo subió, se hace "match" y es más fácil localizarlo. 
+Cuando pierdes algo, tienes que ir a preguntar a vigilancia, a las oficinas o a la cafetería, y casi siempre nadie sabe nada. Es un desorden.
+
+## Impacto
+
+Muchos terminan perdiendo cosas importantes como llaves, documentos o hasta laptops, perdiendo tiempo preguntando a la gente en grupos, trabajadores y compañeros sin encontrar sus objetos extraviados con exito en corto tiempo.
+
+## Solución 
+
+Una plataforma donde puedas subir una foto y descripción de lo que perdiste o de lo que encontraste. Así, si alguien ya lo subió, se hace "match" y es más fácil localizarlo. 
 
 ## Alcance del proyecto
 
@@ -51,6 +57,8 @@ Con un tablero dividido en columnas (*Por hacer, En proceso, Hecho*), cualquiera
 * **Frontend:** Next.js 15 con TypeScript
 * **Styling:** Tailwind CSS
 * **Linting:** ESLint
+* **Backend:** JavaScript
+* **Base de datos:** MySQL
 
 ## Instalación
 
