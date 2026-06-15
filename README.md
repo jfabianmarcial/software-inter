@@ -9,6 +9,17 @@ La idea es crear una página o app para que sea más fácil recuperar las cosas 
 * **Lo que afecta:** Muchos terminan perdiendo cosas importantes como llaves, documentos o hasta laptops. También le hacemos perder tiempo a la gente que trabaja en la escuela atendiendo a todos los que preguntan lo mismo.
 * **La idea:** Una plataforma donde puedas subir una foto y descripción de lo que perdiste o de lo que encontraste. Así, si alguien ya lo subió, se hace "match" y es más fácil localizarlo. 
 
+## Alcance del proyecto
+
+Durante el periodo de desarrollo se implementarán las siguientes funcionalidades principales:
+
+Registro de reportes de objetos perdidos.
+Registro de reportes de objetos encontrados.
+Consulta y búsqueda de reportes.
+Visualización de detalles de cada objeto.
+Gestión básica de coincidencias entre reportes.
+Interfaz web intuitiva y adaptable a dispositivos móviles.
+
 ## Justificación de la Metodología de Desarrollo
 
 Para el desarrollo de este proyecto se ha seleccionado la metodología kanban. 
