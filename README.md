@@ -46,6 +46,28 @@ El problema de perder cosas en la escuela necesita una solución rápida. Kanban
 ### 4. Todo es muy visual
 Con un tablero dividido en columnas (*Por hacer, En proceso, Hecho*), cualquiera puede entrar y ver en un segundo qué se está programando hoy, qué está pendiente y qué ya se terminó. Así no perdemos tiempo en juntas para ver cómo va el proyecto.
 
+## Lista de Tareas Planificadas (Backlog del Proyecto)
+
+Para llevar un control transparente con el equipo, las tareas se han dividido en las columnas del tablero de la siguiente manera:
+
+### Por hacer (Próximas tareas a iniciar)
+* **Configuración inicial:** Instalar y configurar el entorno local del proyecto usando Vite con React y JavaScript.
+* **Base de Datos inicial:** Diseñar la base de datos en MySQL con las tablas principales (`Usuarios`, `Objetos` y `Reportes`).
+* **Conexión del Servidor:** Configurar un servidor básico con Node.js que se conecte a la base de datos local de MySQL.
+* **Maquetación del Muro:** Diseñar la pantalla principal  donde se mostrarán las tarjetas de todos los objetos perdidos y encontrados.
+* **Formulario de Reporte:** Crear la pantalla con el formulario para que los usuarios puedan subir un objeto (Título, descripción, foto y lugar del campus).
+
+### Pendiente / Backlog (Futuras mejoras)
+* **Sistema de Roles:** Agregar el campo `rol` en la tabla de usuarios para diferenciar entre Alumno y Administrador,
+* **Filtros de Búsqueda:** Programar un buscador en el muro para filtrar los objetos por categoría (Llaves, Credenciales, Mochilas, Electrónicos) o por zonas del campus.
+* **Login institucional:** Configurar el inicio de sesión único (Login) para la comunidad de la escuela.
+* **Panel de Control Admin:** Crear una vista especial donde el administrador pueda ver una lista de reportes para borrar publicaciones falsas o reportadas.
+* **Historial del Usuario:** Crear una sección de "Mis Reportes" para que cada alumno vea y controle lo que ha publicado.
+
+### Completado
+* Crear el repositorio público `Obejetos-Perdidos-FCC` en GitHub.
+* Escribir y subir el archivo `README.md` inicial con la justificación de la metodología Kanban.
+
 ## Riesgos del Proyecto
 
 ### 1. Cambios en los requisitos
