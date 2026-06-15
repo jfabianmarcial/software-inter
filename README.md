@@ -40,8 +40,8 @@ A diferencia de otras formas de trabajo que te obligan a entregar avances cada s
 ### 2. Nos ayuda a terminar lo que empezamos (Limitación del WIP)
 En Kanban hay una regla muy importante: **no puedes abrir muchas tareas al mismo tiempo**. Nos pusimos un límite de máximo 2 tareas a la vez en la columna "En Proceso". Esto nos obliga a terminar bien una pantalla o una función antes de empezar a programar la siguiente, evitando que el proyecto se llene de cosas a medias que no funcionan.
 
-### 3. Lanzar la app por partes
-El problema de perder cosas en la escuela necesita una solución rápida. Kanban nos ayuda a ver qué es lo más urgente para armar una primera versión básica pero útil. En cuanto terminamos una función importante (como el formulario para subir la foto), ya la podemos agregar a la app sin tener que esperar a que todo lo demás esté listo.
+### 3. Revisar la página por partes
+El problema de perder cosas en la escuela necesita una solución rápida. Kanban nos ayuda a ver qué es lo más urgente para armar una primera versión básica pero útil. En cuanto terminamos una función importante (como el formulario para subir la foto), ya la podemos agregar a la pagina sin tener que esperar a que todo lo demás esté listo.
 
 ### 4. Todo es muy visual
 Con un tablero dividido en columnas (*Por hacer, En proceso, Hecho*), cualquiera puede entrar y ver en un segundo qué se está programando hoy, qué está pendiente y qué ya se terminó. Así no perdemos tiempo en juntas para ver cómo va el proyecto.
@@ -95,7 +95,7 @@ Mitigación: Mantener reuniones breves de seguimiento y actualizar constantement
 * `README.md`: Este archivo.
 
 ## Stack tecnológico
-* **Frontend:** Next.js 15 con TypeScript
+* **Frontend:** JavaScript 
 * **Styling:** Tailwind CSS
 * **Linting:** ESLint
 * **Backend:** JavaScript
