@@ -28,27 +28,59 @@
 
 ## Matriz de Priorización (MoSCoW)
 
-### 1. Debe tener (*Must Have*) – Esenciales para el MVP
+<table>
+<tr>
+<td width="50%">
+
+### 🟢 DEBE TENER (*Must Have*)
+
+*Funciones esenciales para el MVP.*
+
 * **Buscador Inteligente:** Motor de búsqueda con filtros por zona del campus, categoría y orden cronológico.
 * **Registrar Objeto Perdido:** Formulario de reporte rápido para alumnos con carga de imágenes y contacto seguro.
 * **Registrar Objeto Encontrado:** Registro de hallazgos que documente el punto de resguardo físico y la custodia.
 * **Notificación de Match:** Algoritmo automático que cruza datos y envía alertas inmediatas ante una coincidencia.
 * **Autenticación Institucional & RBAC:** Control de accesos mediante cuentas institucionales con roles divididos en Alumno (0) y Administrador (1).
 
-### 2. Debería tener (*Should Have*) – Altamente recomendados
+</td>
+
+<td width="50%">
+
+### 🔵 DEBERÍA TENER (*Should Have*)
+
+*Características importantes que aportan gran valor, pero no detienen el lanzamiento.*
+
 * **Galería en Grid Optimizado:** Muro visual rápido con etiquetas de estado para los artículos en resguardo.
 * **Diseño Mobile First:** Interfaz completamente adaptada a smartphones con menús colapsables y navegación en dos clics.
 * **Moderación de Publicaciones:** Panel de control total para que el administrador pueda bloquear o archivar reportes inapropiados.
 * **Anonimato en la Red:** Protección explícita de datos de contacto y anonimato visual en el muro público.
 
-### 3. Podría tener (*Could Have*) – Deseables / Futuras mejoras
-* **Sincronización en Tiempo Real:** Actualizaciones automáticas e instantáneas en el feed de la galería sin refrescar el navegador.
-* **Indicadores de Ruta Gráficos:** Mapas interactivos del campus integrados en el selector de ubicaciones del formulario.
-* **Auditoría del Servidor (Logs):** Bitácora técnica avanzada y rastreo detallado de borrados accidentales o malintencionados.
+</td>
+</tr>
 
-### 4. No tendrá (*Won't Have*) – Fuera del alcance actual
+<tr>
+<td>
+
+### 🔴 NO TENDRÁ (*Won't Have*)
+
+*Funciones fuera del alcance del proyecto actual.*
+
 * **Pasarela de Recompensas Monetarias:** No se gestionarán incentivos financieros ni pagos internos dentro del sistema para evitar fraudes.
 * **Chat abierto entre Alumnos:** Para proteger la identidad y evitar el acoso, la comunicación se gestiona únicamente mediante datos encriptados o con el administrador intermediario.
 * **Acceso a Usuarios Externos:** El sistema estará restringido exclusivamente a la comunidad universitaria con correo institucional vigente.
 
+</td>
 
+<td>
+
+### 🟣 PODRÍA TENER (*Could Have*)
+
+*Mejoras secundarias o futuras versiones del sistema.*
+
+* **Sincronización en Tiempo Real:** Actualizaciones automáticas e instantáneas en el feed de la galería sin refrescar el navegador.
+* **Indicadores de Ruta Gráficos:** Mapas interactivos del campus integrados en el selector de ubicaciones del formulario.
+* **Auditoría del Servidor (Logs):** Bitácora técnica avanzada y rastreo detallado de borrados accidentales o malintencionados.
+
+</td>
+</tr>
+</table>
