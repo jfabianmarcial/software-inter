@@ -26,16 +26,31 @@
 6  **Cierre de Sesión por Inactividad: Mecanismo de seguridad que expira y finaliza automáticamente la sesión del usuario tras un periodo de tiempo determinado sin interacción con el sistema.
 
 
-##  Matriz de Priorización (Estructura MoSCoW)
+## Matriz de Priorización (MoSCoW)
 
-| 🔴 Debe tener (*Must Have*) | 🟡 Debería tener (*Should Have*) | 🟢 Podría tener (*Could Have*) | ⚪ No tendrá (*Won't Have*) |
-| :--- | :--- | :--- | :--- |
-| **Buscador Inteligente:** Motor de búsqueda con filtros por zona del campus, categoría y orden cronológico. | **Galería en Grid Optimizado:** Muro visual rápido con etiquetas de estado para los artículos en resguardo. | **Sincronización en Tiempo Real:** Actualizaciones automáticas en el feed de la galería sin refrescar el navegador. | **Pasarela de Recompensas:** No se gestionarán incentivos financieros ni pagos internos para evitar fraudes. |
-| **Registrar Objeto Perdido:** Formulario de reporte rápido para alumnos con carga de imágenes y contacto seguro. | **Diseño Mobile First:** Interfaz adaptada a smartphones con menús colapsables y navegación en dos clics. | **Indicadores de Ruta Gráficos:** Mapas interactivos del campus integrados en el selector de ubicaciones. | **Chat abierto entre Alumnos:** Comunicación mediante datos encriptados o intermediario para evitar acoso. |
-| **Registrar Objeto Encontrado:** Registro de hallazgos que documente el punto de resguardo físico y la custodia. | **Moderación de Publicaciones:** Panel de control total para que el administrador bloquee o archive reportes. | **Auditoría del Servidor (Logs):** Bitácora técnica avanzada y rastreo detallado de borrados. | **Acceso a Usuarios Externos:** Sistema restringido exclusivamente a la comunidad con correo institucional. |
-| **Notificación de Match:** Algoritmo automático que cruza datos y envía alertas inmediatas ante una coincidencia. | **Anonimato en la Red:** Protección explícita de datos de contacto y anonimato visual en el muro público. | | |
-| **Autenticación & RBAC:** Cuentas institucionales con roles divididos en Alumno (0) y Administrador (1). | | | |
-| **Límite de Alertas:** Restricción de notificaciones masivas (tope máximo diario) para evitar saturación. | | | |
-| **Cierre de Sesión:** Mecanismo de seguridad que expira automáticamente la sesión por inactividad. | | | |
+Para asegurar el éxito y enfoque del proyecto durante el desarrollo, los requerimientos se han priorizado utilizando la metodología MoSCoW:
+
+### 1. Debe tener (*Must Have*) – Esenciales para el MVP
+* **Buscador Inteligente:** Motor de búsqueda con filtros por zona del campus, categoría y orden cronológico.
+* **Registrar Objeto Perdido:** Formulario de reporte rápido para alumnos con carga de imágenes y contacto seguro.
+* **Registrar Objeto Encontrado:** Registro de hallazgos que documente el punto de resguardo físico y la custodia.
+* **Notificación de Match:** Algoritmo automático que cruza datos y envía alertas inmediatas ante una coincidencia.
+* **Autenticación Institucional & RBAC:** Control de accesos mediante cuentas institucionales con roles divididos en Alumno (0) y Administrador (1).
+
+### 2. Debería tener (*Should Have*) – Altamente recomendados
+* **Galería en Grid Optimizado:** Muro visual rápido con etiquetas de estado para los artículos en resguardo.
+* **Diseño Mobile First:** Interfaz completamente adaptada a smartphones con menús colapsables y navegación en dos clics.
+* **Moderación de Publicaciones:** Panel de control total para que el administrador pueda bloquear o archivar reportes inapropiados.
+* **Anonimato en la Red:** Protección explícita de datos de contacto y anonimato visual en el muro público.
+
+### 3. Podría tener (*Could Have*) – Deseables / Futuras mejoras
+* **Sincronización en Tiempo Real:** Actualizaciones automáticas e instantáneas en el feed de la galería sin refrescar el navegador.
+* **Indicadores de Ruta Gráficos:** Mapas interactivos del campus integrados en el selector de ubicaciones del formulario.
+* **Auditoría del Servidor (Logs):** Bitácora técnica avanzada y rastreo detallado de borrados accidentales o malintencionados.
+
+### 4. No tendrá (*Won't Have*) – Fuera del alcance actual
+* **Pasarela de Recompensas Monetarias:** No se gestionarán incentivos financieros ni pagos internos dentro del sistema para evitar fraudes.
+* **Chat abierto entre Alumnos:** Para proteger la identidad y evitar el acoso, la comunicación se gestiona únicamente mediante datos encriptados o con el administrador intermediario.
+* **Acceso a Usuarios Externos:** El sistema estará restringido exclusivamente a la comunidad universitaria con correo institucional vigente.
 
 
