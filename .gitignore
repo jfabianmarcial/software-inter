@@ -1,13 +1,13 @@
 # Dependencias
 node_modules/
 
-# Variables de entorno
-.env
+# Variables de entorno - NUNCA subir al repo
+server/.env
 
-# Vite
+# Vite build
 dist/
 .vite/
 
-# Sistema
+# Sistema operativo
 .DS_Store
 Thumbs.db
