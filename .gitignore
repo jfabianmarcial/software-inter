@@ -1,0 +1,13 @@
+# Dependencias
+node_modules/
+
+# Variables de entorno
+.env
+
+# Vite
+dist/
+.vite/
+
+# Sistema
+.DS_Store
+Thumbs.db
