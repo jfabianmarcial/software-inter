@@ -5,7 +5,7 @@ exports.crearReporte = async (req, res, next) => {
   try {
     const { nombre_objeto, categoria, descripcion, fecha_encontrado, hora_encontrado, zona } = req.body;
     const usuario_id = req.usuario.id;
-    const imagen = req.file ? req.file.filename : null;
+    const imagen = req.file ? req.file.path : null;
 
     if (!nombre_objeto || !categoria || !fecha_encontrado || !hora_encontrado || !zona) {
       return res.status(400).json({ message: 'Faltan campos obligatorios' });
