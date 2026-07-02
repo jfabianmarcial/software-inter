@@ -52,6 +52,9 @@ export async function registrarEntregaService(id, datos) {
 
 export function imagenUrl(nombreArchivo) {
   if (!nombreArchivo) return null;
+  // Si ya es una URL completa de Cloudinary, úsala directo
+  if (nombreArchivo.startsWith('http')) return nombreArchivo;
+  // Fallback para imágenes antiguas locales
   return `${API_URL}/uploads/${nombreArchivo}`;
 }
 
