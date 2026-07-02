@@ -105,7 +105,6 @@ export default function LostObjectsPage() {
       </p>
       <div className="object-footer">
         <span className={`status-badge ${o.estado.toLowerCase()}`}>{o.estado}</span>
-        <span className="reporter">Por {o.reportado_por}</span>
       </div>
     </div>
   </div>
