@@ -101,7 +101,7 @@ export default function LostObjectsPage() {
         <span>📅 {new Date(o.fecha_encontrado).toLocaleDateString("es-MX")}</span>
       </div>
       <p className="object-hint">
-        ¿Es tuyo? Acude a la administración y describe sus características para reclamarlo.
+        ¿Es tuyo? Acude a la dirección y describe sus características para reclamarlo.
       </p>
       <div className="object-footer">
         <span className={`status-badge ${o.estado.toLowerCase()}`}>{o.estado}</span>
